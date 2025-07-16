@@ -1,0 +1,143 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);  /* Darker overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content-import {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    max-height: 85%;
+    overflow-y: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.modal-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.btn-close {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.modal-body {
+    padding-top: 15px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn-submit {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.btn-close-down {
+    background-color: #ff4f5a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #f4f4f4;
+}
+
+.draggable-item {
+    background-color: #d1e7fd;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: move;
+    text-align: center;
+}
+
+.draggable-item:hover {
+    background-color: #aac6f2;
+}
+
+.matched {
+    background-color: #c8e6c9;
+}
+
+.unmatched {
+    background-color: #ffebee;
+}
+
+.highlight {
+    background-color: #fff3e0;
+}
+
+.validation-errors {
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .validation-errors h3 {
+    font-size: 18px;
+  }
+  
+  .validation-errors ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .validation-errors li {
+    margin-bottom: 10px;
+  }
+  
+  .validation-errors ul ul {
+    margin-left: 20px;
+  }
+  
